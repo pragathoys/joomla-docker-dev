@@ -3,7 +3,7 @@ services:
     image: mariadb:10.11
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: example_password
+      MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: joomla
       MYSQL_USER: joomla_user
       MYSQL_PASSWORD: joomla_password
