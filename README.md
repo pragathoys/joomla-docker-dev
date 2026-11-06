@@ -22,4 +22,4 @@ If you want to connect the docker in a different network eg. proxy :
 
 - docker compose down
 - docker compose pull
-- docker compose
+- docker compose up --build
