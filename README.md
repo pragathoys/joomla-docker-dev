@@ -1,6 +1,10 @@
 # joomla-docker-dev
 A Docker Compose YAML file for quick Joomla development. It fetches the latest version of Joomla.
 
+# Configuration
+
+Before starting the container dont forget to change the username and password of the joomla admin, db user
+
 # Just ...
 
 - Inside the folder run: docker compose up [to start the stack]
